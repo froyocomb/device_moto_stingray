@@ -15,6 +15,7 @@
 #
 
 $(call inherit-product, device/moto/wingray/device_base.mk)
+$(call inherit-product, vendor/moto/stingray/device-vendor.mk)
 
 PRODUCT_COPY_FILES += \
     device/moto/stingray/ril/tty2ttyd:system/bin/tty2ttyd \
