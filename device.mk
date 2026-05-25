@@ -55,4 +55,4 @@ PRODUCT_COPY_FILES += \
     device/moto/stingray/media_profiles.xml:system/etc/media_profiles.xml
 
 # inherit from the non-open-source side, if present
-$(call inherit-product, vendor/moto/stingray/stingray-vendor.mk)
+$(call inherit-product-if-exists, vendor/moto/stingray/stingray-vendor.mk)
