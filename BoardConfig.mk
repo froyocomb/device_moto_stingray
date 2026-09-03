@@ -23,7 +23,7 @@ BOARD_USES_GENERIC_AUDIO := true
 USE_CAMERA_STUB := true
 USE_E2FSPROGS := true
 
-BOARD_HAVE_BLUETOOTH := true
+BOARD_HAVE_BLUETOOTH := false
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # needed for source compilation of nvidia libraries
